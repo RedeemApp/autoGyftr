@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Gmail Amazon Gift Card Extractor",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage", "tabs"],
+    "host_permissions": [
+      "https://mail.google.com/*",
+      "https://www.amazon.in/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://mail.google.com/*"],
+        "js": ["content.js"]
+      },
+      {
+        "matches": [ "https://www.amazon.in/*"],
+        "js": ["myScript.js"]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action" : {
+        "default_popup" : "popup.html"
+    }
+}

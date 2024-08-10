@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.ticket {
+    position: relative;
+    background-color: white;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.ticket::before,
+.ticket::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.ticket::before {
+    left: -15px;
+    box-shadow: 
+        inset -10px 0 10px -10px rgba(0, 0, 0, 0.2),
+        1px 0 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+.ticket::after {
+    right: -15px;
+    box-shadow: 
+        inset 10px 0 10px -10px rgba(0, 0, 0, 0.2),
+        -1px 0 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+.ticket-content {
+    border-top: 2px dashed #ccc;
+    border-bottom: 2px dashed #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+#clearStorage {
+    background-color: #f44336;
+}
+
+#clearStorage:hover {
+    background-color: #d32f2f;
+}
