@@ -40,7 +40,7 @@ Amazon Auto Code Redeemer is a Chrome extension designed to streamline the proce
 
 Check out our demo video to see the Amazon Auto Code Redeemer in action:
 
-[Watch the demo video](demoAutoGyftr.gif)
+![Watch the demo video](demoAutoGyftr.gif)
 
 ## Technical Details
 
