@@ -67,3 +67,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Disclaimer
 
 This software is provided "as is", without warranty of any kind, express or implied. The authors and copyright holders of this software shall not be liable for any claim, damages, or other liability arising from the use or misuse of this software. Use at your own risk.
+
+## Acknowledgements
+
+<a href="https://www.flaticon.com/free-icons/trash-can" title="trash can icons">Trash can icons created by Graphics Plazza - Flaticon</a>

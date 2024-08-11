@@ -29,14 +29,14 @@ function clearStorage(){
 document.addEventListener('DOMContentLoaded', function() {
     const actionButton = document.getElementById('startExtraction');
 
-    // Function to update button text based on current tab URL
-    function updateButtonText(url) {
+    // Function to update button image based on current tab URL
+    function updateButtonImage(url) {
         if (url.includes('mail.google.com')) {
-            actionButton.textContent = 'Extract Amazon Codes';
+            actionButton.src = 'icons/extract.svg';
         } else if (url.includes('amazon.in')) {
-            actionButton.textContent = 'Apply Amazon Code';
+            actionButton.src = 'icons/apply.svg';
         } else {
-            actionButton.textContent = 'Action';
+            actionButton.src = 'icons/extract.svg'; // Set a default image here
         }
     }
 

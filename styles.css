@@ -4,13 +4,13 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: white;
     font-family: Arial, sans-serif;
 }
 
 .ticket {
     position: relative;
-    background-color: white;
+    background-color: #c9dea7;
     width: 280px;
     padding: 30px 20px;
     border-radius: 15px;
@@ -76,14 +76,33 @@ button:hover {
     transform: translateY(-2px);
 }
 
+img:hover {
+    transform: translateY(-2px);
+}
+
 button:active {
     transform: translateY(1px);
 }
 
 #clearStorage {
-    background-color: #f44336;
+    background-color: white;
+    color: black;
+}
+#clearStorage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#trash {
+    margin-left: 10px;
 }
 
 #clearStorage:hover {
-    background-color: #d32f2f;
+    background-color: white;
+}
+
+#trash {
+    margin-left: 8px;
+    margin-top: 4px;
+    width: 18px;
 }
