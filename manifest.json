@@ -24,8 +24,8 @@
         "default_popup" : "popup.html"
     },
     "icons": {
-        "16": "icons/redeem_logo.png",
-        "48": "icons/redeem_logo.png",
-        "128": "icons/redeem_logo.png"
+        "16": "icons/gyftr_code_extractor.png",
+        "48": "icons/gyftr_code_extractor.png",
+        "128": "icons/gyftr_code_extractor.png"
     }
 }

@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Get the current tab's URL
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         let currentTab = tabs[0];
-        updateButtonText(currentTab.url);
+        updateButtonImage(currentTab.url);
     });
 
     // Add click event listener to the action button
