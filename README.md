@@ -31,10 +31,21 @@ Amazon Auto Code Redeemer is a Chrome extension designed to streamline the proce
 
 ## Usage
 
+## For Amazon Shopping Voucher
 1. Click on the extension icon in your Chrome toolbar.
 2. The popup will display a ticket-shaped interface with two buttons.
 3. Use the main action button to extract or apply codes, depending on your current website.
 4. Use the "Clear Storage" button to remove all stored codes.
+
+## For APAY Voucher
+0. Add some item in the cart, go till payment page. Come back to Gmail.
+1. Click on the extension icon in your Chrome toolbar.
+2. The popup will display a ticket-shaped interface with two buttons.
+3. Use the main action button to extract or apply codes, depending on your current website.
+4. Use the "Clear Storage" button to remove all stored codes.
+
+## Future Work
+1. Need to remove the need to go to Cart for APAY vouchers.
 
 ## Demo
 
