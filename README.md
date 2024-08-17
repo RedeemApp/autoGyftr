@@ -46,6 +46,7 @@ Amazon Auto Code Redeemer is a Chrome extension designed to streamline the proce
 
 ## Future Work
 1. Need to remove the need to go to Cart for APAY vouchers.
+2. Don't require people to open up the specific mails (even clubbed ones), do it automatically.
 
 ## Demo
 
