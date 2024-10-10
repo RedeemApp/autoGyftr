@@ -13,7 +13,7 @@ function extractAmazonCode() {
     let input = document.querySelector('input[name="claimCode"]');
     console.log(input);
     // End of test
-    let URL = "https://www.amazon.in/gp/buy/payselect/handlers/display.html?_from=cheetah&"
+    // let URL = "https://www.amazon.in/gp/buy/payselect/handlers/display.html?_from=cheetah&"
     const emails = document.querySelectorAll('.adn.ads');
     for (let email of emails) {
         const body = email.innerText;
@@ -31,7 +31,8 @@ function extractAmazonCode() {
                     // saving code to storage
                     const codeKey = 'code' + (++count);
                 
-                    URL = "https://www.amazon.in/gp/buy/payselect/handlers/display.html?_from=cheetah&" + codeKey + "=" + code;
+                    // URL = "https://www.amazon.in/gp/buy/payselect/handlers/display.html?_from=cheetah&" + codeKey + "=" + code; // workaround for apay balance
+                    URL = "https://www.amazon.in/apay-products/gc/claim"
                     if (code.includes("-") && code.length == 15)
                     {
                         URL = "https://www.amazon.in/apay-products/apv/landing?ref_=apay_deskhome_AmazonVouchers/ref=in-apay_allgc_halo&" + codeKey + "=" + code;

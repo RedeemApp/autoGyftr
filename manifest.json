@@ -14,7 +14,7 @@
       },
       {
         "matches": [ "https://www.amazon.in/*"],
-        "js": ["myScript.js"]
+        "js": ["jquery.js", "myScript.js"]
       }
     ],
     "background": {

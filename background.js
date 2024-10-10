@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         let URL = request.url;
         chrome.tabs.query({url: URL}, function(tabs) {
             console.log("tabs length " + tabs.length);
-            if (tabs.length) {
+            if (false) {
                 processTab(tabs[0], request.code); // process existing tab
             } else {
                 chrome.tabs.create({ url: URL}, function (tab) {
